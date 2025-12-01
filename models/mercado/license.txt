@@ -1,11 +1,11 @@
 Model Information:
-* title:	Mercado
-* source:	https://sketchfab.com/3d-models/mercado-d4ae018381814b73ab0f514459b2427d
-* author:	Allvis (https://sketchfab.com/allvis)
+* title:	Tienda
+* source:	https://sketchfab.com/3d-models/tienda-ecbf8abf6d73479f8c883bfcfcd94fe1
+* author:	galax_evan (https://sketchfab.com/galax_evan)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Mercado" (https://sketchfab.com/3d-models/mercado-d4ae018381814b73ab0f514459b2427d) by Allvis (https://sketchfab.com/allvis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Tienda" (https://sketchfab.com/3d-models/tienda-ecbf8abf6d73479f8c883bfcfcd94fe1) by galax_evan (https://sketchfab.com/galax_evan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

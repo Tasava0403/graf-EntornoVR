@@ -1,11 +1,11 @@
 Model Information:
-* title:	gumball carro car
-* source:	https://sketchfab.com/3d-models/gumball-carro-car-3bfffe17a2a141b49b16c5cefd0eff9d
-* author:	Adler3d (https://sketchfab.com/monalizav894)
+* title:	Cabana do Terror
+* source:	https://sketchfab.com/3d-models/cabana-do-terror-f19ece2b5c85455c954aa8a57db6e549
+* author:	Freeality (https://sketchfab.com/Freeality)
 
 Model License:
-* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-* requirements:	Author must be credited. Commercial use is allowed.
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "gumball carro car" (https://sketchfab.com/3d-models/gumball-carro-car-3bfffe17a2a141b49b16c5cefd0eff9d) by Adler3d (https://sketchfab.com/monalizav894) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Cabana do Terror" (https://sketchfab.com/3d-models/cabana-do-terror-f19ece2b5c85455c954aa8a57db6e549) by Freeality (https://sketchfab.com/Freeality) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

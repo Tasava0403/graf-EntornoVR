@@ -3,24 +3,24 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 4726,
+      "count": 3598,
       "max": [
-        1.6715584993362427,
-        1.0919994115829468,
-        1.9242349863052368
+        6.87998104095459,
+        5.952029228210449,
+        11.918135643005371
       ],
       "min": [
-        -0.9018813371658325,
-        -0.9261037707328796,
-        -1.7487397193908691
+        -6.87998104095459,
+        -6.764256000518799,
+        -0.005359000060707331
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 56712,
+      "byteOffset": 43176,
       "componentType": 5126,
-      "count": 4726,
+      "count": 3598,
       "max": [
         1.0,
         1.0,
@@ -34,81 +34,118 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 1,
+      "bufferView": 3,
       "componentType": 5126,
-      "count": 4726,
+      "count": 3598,
       "max": [
-        0.9981517791748047,
-        0.3090941607952118
+        1.0,
+        1.0,
+        1.0,
+        1.0
       ],
       "min": [
-        0.8297228813171387,
-        0.003264252096414566
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3598,
+      "max": [
+        0.9755859971046448,
+        0.9394559860229492
+      ],
+      "min": [
+        0.024413999170064926,
+        0.024413999170064926
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 11076,
+      "count": 14124,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Allvis (https://sketchfab.com/allvis)",
+      "author": "galax_evan (https://sketchfab.com/galax_evan)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/mercado-d4ae018381814b73ab0f514459b2427d",
-      "title": "Mercado"
+      "source": "https://sketchfab.com/3d-models/tienda-ecbf8abf6d73479f8c883bfcfcd94fe1",
+      "title": "Tienda"
     },
-    "generator": "Sketchfab-12.68.0",
+    "generator": "Sketchfab-15.22.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 44304,
+      "byteLength": 56496,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 37808,
-      "byteOffset": 44304,
+      "byteLength": 28784,
+      "byteOffset": 56496,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 113424,
-      "byteOffset": 82112,
+      "byteLength": 86352,
+      "byteOffset": 85280,
       "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 57568,
+      "byteOffset": 171632,
+      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 195536,
+      "byteLength": 229200,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/Mercado_baseColor.png"
+      "uri": "textures/initialShadingGroup_baseColor.png"
+    },
+    {
+      "uri": "textures/initialShadingGroup_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/initialShadingGroup_normal.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "Mercado",
+      "name": "initialShadingGroup",
+      "normalTexture": {
+        "index": 2
+      },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
         },
         "metallicFactor": 0.0,
-        "roughnessFactor": 0.5
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
       }
     }
   ],
@@ -120,9 +157,10 @@
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TEXCOORD_0": 2
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
           },
-          "indices": 3,
+          "indices": 4,
           "material": 0,
           "mode": 4
         }
@@ -135,17 +173,17 @@
         1
       ],
       "matrix": [
-        1.0,
+        0.2857142984867096,
         0.0,
         0.0,
         0.0,
         0.0,
-        2.220446049250313e-16,
-        -1.0,
+        6.34413185289139e-17,
+        -0.2857142984867096,
         0.0,
         0.0,
-        1.0,
-        2.220446049250313e-16,
+        0.2857142984867096,
+        6.34413185289139e-17,
         0.0,
         0.0,
         0.0,
@@ -158,59 +196,11 @@
       "children": [
         2
       ],
-      "name": "root"
-    },
-    {
-      "children": [
-        3
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        2.220446049250313e-16,
-        1.0,
-        0.0,
-        0.0,
-        -1.0,
-        2.220446049250313e-16,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "name": "GLTF_SceneRootNode"
-    },
-    {
-      "children": [
-        4
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        -0.45751750469207764,
-        0.9224103093147278,
-        5.8323493003845215,
-        1.0
-      ],
-      "name": "Mercado_0"
+      "name": "233b2a9f9bb840a1bcd9a0ef30568bcd.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
-      "name": "Object_4"
+      "name": "Object_2"
     }
   ],
   "samplers": [
@@ -234,6 +224,14 @@
     {
       "sampler": 0,
       "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
     }
   ]
 }

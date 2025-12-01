@@ -179,12 +179,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /** Configuración principal del mundo virtual */
 const WORLD_CONFIG = {
-    SIZE: 260,
+    SIZE: 130,
     TERRAIN_RESOLUTION: 256,
     TERRAIN_MAX_HEIGHT: 0.8,
-    RADIUS: 260 * 0.5 - 1.0,
+    RADIUS: 130 * 0.5 - 1.0,
     FOG_DENSITY: 0.008,
-    BAG_AREA: 80,
+    BAG_AREA: 40,
     WALL_HEIGHT: 6
 };
 
@@ -234,10 +234,10 @@ const ASSET_PATHS = {
 
 /** Modelos 3D disponibles para objetos decorativos */
 const OBJECT_MODELS = [
-    { path: 'models/carro1/scene.gltf', scale: 1.0, type: 'decorative' },
     { path: 'models/arbol1/scene.gltf', scale: 1.0, type: 'decorative' },
     { path: 'models/lampara/scene.gltf', scale: 1.5, type: 'decorative' },
-    { path: 'models/mercado/scene.gltf', scale: 3.0, type: 'decorative' },
+    { path: 'models/mercado/scene.gltf', scale: 1.0, type: 'decorative' },
+    { path: 'models/carro1/scene.gltf', scale: 1.5, type: 'decorative' },
     { path: 'models/arbol2/scene.gltf', scale: 1.0, type: 'decorative' },
 ];
 
@@ -960,7 +960,7 @@ const particleSystems = [];
  * @param {THREE.Vector3} position - Posición donde spawnear las partículas
  */
 function spawnMoneyParticles(position) {
-    const PARTICLE_COUNT = 80;
+    const PARTICLE_COUNT = 120;
     const geometry = new THREE.BufferGeometry();
     
     const positions = new Float32Array(PARTICLE_COUNT * 3);
